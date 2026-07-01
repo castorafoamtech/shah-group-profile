@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+
+<title>Mahabhadra Shah &amp; Mahayash Shah — Manufacturing &amp; Engineering Group</title>
+<meta name="description" content="Mahabhadra Shah and Mahayash Shah lead a diversified manufacturing and engineering group spanning Lost Foam Casting, shipping containers, industrial fabrication, industrial piping, and end-to-end engineering solutions.">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mahabhadra Shah & Mahayash Shah — Manufacturing & Engineering Group">
+<meta property="og:description" content="Precision manufacturing, engineered solutions, and industrial excellence across castings, containers, fabrication, piping, and engineering services.">
+<meta property="og:locale" content="en_IN">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Inter+Tight:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+/* ═══ RESET ═══════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--ink);overflow-x:hidden;-webkit-font-smoothing:antialiased;line-height:1.5}
+img{max-width:100%;display:block}
+a{color:inherit}
+
+:root{
+  --bg:#ffffff;--bg-alt:#f6f7f9;--bg-deep:#f0f2f5;
+  --ink:#0d1117;--ink-soft:#48505c;--ink-faint:#8791a0;
+  --line:#e6e8ec;--line-soft:#eef0f3;
+  --accent:#1f4ed8;--accent-soft:#eef2ff;--accent-deep:#12308c;
+  --amber:#c2703a;
+  --radius:18px;
+}
+
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--bg-alt)}
+::-webkit-scrollbar-thumb{background:#c7cdd6;border-radius:6px}
+
+.wrap{max-width:1180px;margin:0 auto;padding-left:1.75rem;padding-right:1.75rem}
+
+/* ═══ NAV ═════════════════════════════════ */
+#nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:1.35rem 1.75rem;
+  display:flex;align-items:center;justify-content:space-between;transition:all .35s;
+  background:rgba(255,255,255,0);border-bottom:1px solid transparent}
+#nav.s{background:rgba(255,255,255,.86);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line);padding:.9rem 1.75rem}
+.nn{display:flex;align-items:center;gap:.6rem;font-size:.78rem;font-weight:800;letter-spacing:-.01em;color:var(--ink);text-decoration:none}
+.nn .mk{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),var(--accent-deep));
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:.66rem;font-weight:800;letter-spacing:0}
+.nl{display:none;gap:2rem;list-style:none}
+@media(min-width:960px){.nl{display:flex}}
+.nl a{font-size:.78rem;font-weight:600;color:var(--ink-soft);text-decoration:none;transition:color .2s}
+.nl a:hover{color:var(--ink)}
+.nc{display:none;padding:.6rem 1.35rem;background:var(--ink);border-radius:9px;
+  font-size:.74rem;font-weight:700;color:#fff;text-decoration:none;transition:all .25s}
+@media(min-width:960px){.nc{display:inline-block}}
+.nc:hover{background:var(--accent-deep);transform:translateY(-1px)}
+.hm{display:flex;flex-direction:column;gap:5px;cursor:pointer;padding:.5rem;background:none;border:none}
+@media(min-width:960px){.hm{display:none}}
+.hm span{display:block;width:20px;height:2px;background:var(--ink);border-radius:2px}
+.mm{position:fixed;inset:0;background:#fff;z-index:600;display:flex;align-items:center;justify-content:center;
+  flex-direction:column;gap:1.7rem;opacity:0;pointer-events:none;transition:opacity .3s}
+.mm.o{opacity:1;pointer-events:all}
+.mm a{font-size:1.3rem;font-weight:700;color:var(--ink);text-decoration:none}
+.mx{position:absolute;top:1.5rem;right:1.75rem;font-size:1.3rem;cursor:pointer;color:var(--ink);background:none;border:none}
+
+/* ═══ SHARED SECTION HEADER ═══════════════ */
+.sh{text-align:center;margin-bottom:3.6rem;max-width:660px;margin-left:auto;margin-right:auto}
+.sh .ey{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent);
+  margin-bottom:.9rem;display:block;opacity:0;transform:translateY(12px);transition:all .55s}
+.sh .ey.v{opacity:1;transform:translateY(0)}
+.sh h2{font-family:'Inter Tight',sans-serif;font-size:clamp(1.7rem,4vw,2.55rem);font-weight:800;line-height:1.16;
+  letter-spacing:-.02em;color:var(--ink);margin-bottom:1rem;opacity:0;transform:translateY(16px);transition:all .6s .06s}
+.sh h2.v{opacity:1;transform:translateY(0)}
+.sh p{font-size:.95rem;line-height:1.75;color:var(--ink-soft);opacity:0;transform:translateY(12px);transition:all .55s .12s}
+.sh p.v{opacity:1;transform:translateY(0)}
+
+/* ═══ HERO ════════════════════════════════ */
+#hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;
+  background:var(--bg);overflow:hidden;padding:9.5rem 1.75rem 4rem}
+#hero::before{content:'';position:absolute;inset:0;
+  background-image:linear-gradient(var(--line-soft) 1px,transparent 1px),linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+  background-size:64px 64px;mask-image:radial-gradient(ellipse 80% 65% at 50% 22%,black 0%,transparent 100%);pointer-events:none}
+.hi{position:relative;z-index:2;max-width:880px;text-align:center;margin:0 auto}
+.h-ey{display:inline-flex;align-items:center;gap:.5rem;font-size:.7rem;font-weight:700;letter-spacing:.06em;
+  color:var(--accent-deep);background:var(--accent-soft);border:1px solid #dbe3fb;padding:.45rem 1rem;border-radius:50px;
+  margin-bottom:1.9rem;opacity:0;animation:fsu .8s .15s both}
+.h-name{font-family:'Inter Tight',sans-serif;font-size:clamp(2.1rem,6vw,4.1rem);font-weight:800;line-height:1.08;
+  letter-spacing:-.03em;color:var(--ink);margin-bottom:1.5rem;opacity:0;animation:fsu .85s .3s both}
+.h-amp{color:var(--ink-faint);font-weight:500}
+.h-mk{font-size:clamp(.78rem,2vw,.92rem);letter-spacing:.03em;font-weight:600;color:var(--ink-soft);
+  margin-bottom:1.1rem;opacity:0;animation:fsu .8s .44s both}
+.h-verts{display:flex;flex-wrap:wrap;justify-content:center;gap:.55rem .7rem;margin-bottom:2.2rem;
+  opacity:0;animation:fsu .8s .56s both}
+.h-verts span{font-size:.76rem;font-weight:600;color:var(--ink);padding:.5rem 1.05rem;border:1px solid var(--line);
+  border-radius:50px;background:#fff;box-shadow:0 1px 2px rgba(13,17,23,.03)}
+.h-headline{font-size:clamp(.92rem,2vw,1.08rem);line-height:1.7;color:var(--ink-soft);font-weight:400;
+  max-width:620px;margin:0 auto 2.5rem;opacity:0;animation:fsu .8s .68s both}
+.h-cta-row{display:flex;flex-wrap:wrap;gap:.9rem;justify-content:center;opacity:0;animation:fsu .8s .8s both}
+
+/* trust strip */
+.h-strip{position:relative;z-index:2;margin-top:4.6rem;width:100%;max-width:980px;opacity:0;animation:fsu .9s 1s both}
+.h-strip-lbl{text-align:center;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+  color:var(--ink-faint);margin-bottom:1.3rem}
+.h-strip-row{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}
+@media(max-width:700px){.h-strip-row{grid-template-columns:repeat(2,1fr)}}
+.h-strip-row div{border-radius:12px;overflow:hidden;aspect-ratio:4/3;border:1px solid var(--line);
+  filter:grayscale(1) contrast(1.02);opacity:.82;transition:all .35s}
+.h-strip-row div:hover{filter:none;opacity:1;transform:translateY(-3px)}
+.h-strip-row img{width:100%;height:100%;object-fit:cover}
+
+/* ═══ BUTTONS ═════════════════════════════ */
+.bg{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.7rem;border-radius:10px;
+  background:var(--ink);font-size:.78rem;font-weight:700;color:#fff;text-decoration:none;
+  box-shadow:0 1px 2px rgba(13,17,23,.06);transition:all .25s}
+.bg:hover{background:var(--accent-deep);transform:translateY(-2px);box-shadow:0 10px 24px rgba(31,78,216,.22)}
+.bo{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.7rem;border-radius:10px;
+  background:#fff;border:1px solid var(--line);font-size:.78rem;font-weight:700;color:var(--ink);
+  text-decoration:none;transition:all .25s}
+.bo:hover{border-color:var(--ink);transform:translateY(-2px)}
+.bs{display:inline-flex;align-items:center;gap:.45rem;padding:.6rem 1.2rem;border-radius:9px;
+  background:var(--accent-soft);border:1px solid #dbe3fb;font-size:.72rem;font-weight:700;
+  color:var(--accent-deep);text-decoration:none;transition:all .25s}
+.bs:hover{background:#dfe6fd;transform:translateY(-2px)}
+
+/* ═══ PERSONAL PORTFOLIO STRIP ════════════ */
+#pport{position:relative;padding:2rem 1.75rem;background:var(--bg-alt);border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);text-align:center}
+.pp-i{max-width:640px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:.85rem}
+.pp-t{font-size:.85rem;line-height:1.7;color:var(--ink-soft)}
+.pp-t strong{color:var(--ink)}
+
+/* ═══ VERTICAL SECTIONS ═══════════════════ */
+.vert{position:relative;padding:7rem 1.75rem;background:var(--bg)}
+.vert:nth-of-type(even){background:var(--bg-alt)}
+.v-wrap{max-width:1160px;margin:0 auto;position:relative;z-index:2}
+.v-grid{display:grid;grid-template-columns:1fr;gap:2.6rem;align-items:center}
+@media(min-width:960px){.v-grid{grid-template-columns:1.05fr 1fr;gap:4rem}}
+.v-grid.alt .v-media{order:2}
+.v-grid.alt .v-body{order:1}
+@media(max-width:959px){.v-grid.alt .v-media,.v-grid.alt .v-body{order:initial}}
+
+.v-media{position:relative;opacity:0;transform:translateY(18px);transition:all .8s cubic-bezier(.16,1,.3,1);margin-bottom:1.2rem}
+.v-media.v{opacity:1;transform:translateY(0)}
+.v-frame{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
+  box-shadow:0 20px 46px rgba(13,17,23,.07)}
+.v-frame img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.v-tag{position:absolute;bottom:1rem;left:1rem;right:1rem;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);
+  border:1px solid var(--line);border-radius:11px;padding:.65rem .95rem;font-size:.68rem;font-weight:700;
+  color:var(--ink);z-index:2}
+.v-sub-img{position:absolute;width:36%;bottom:-1.3rem;right:-1.3rem;border-radius:13px;overflow:hidden;
+  border:4px solid #fff;box-shadow:0 16px 36px rgba(13,17,23,.14);z-index:3}
+.v-grid.alt .v-sub-img{right:auto;left:-1.3rem}
+.v-sub-img img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+@media(max-width:479px){.v-sub-img{width:32%;bottom:-.9rem;right:-.5rem}.v-grid.alt .v-sub-img{left:-.5rem}}
+
+.v-body{opacity:0;transform:translateY(16px);transition:all .75s .08s cubic-bezier(.16,1,.3,1)}
+.v-body.v{opacity:1;transform:translateY(0)}
+.v-num{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--accent);
+  display:block;margin-bottom:.9rem}
+.v-h{font-family:'Inter Tight',sans-serif;font-size:clamp(1.5rem,3.2vw,2.15rem);font-weight:800;line-height:1.18;
+  letter-spacing:-.018em;color:var(--ink);margin-bottom:1.1rem}
+.v-intro{font-size:.92rem;line-height:1.8;color:var(--ink-soft);margin-bottom:1.6rem}
+
+.v-sub{font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--ink);
+  margin-bottom:.8rem;margin-top:1.5rem;display:block}
+.v-caps{display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem .9rem;margin-bottom:.4rem}
+@media(max-width:479px){.v-caps{grid-template-columns:1fr}}
+.v-caps li{list-style:none;display:flex;align-items:flex-start;gap:.55rem;font-size:.83rem;color:var(--ink);line-height:1.5}
+.v-caps li::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--accent);margin-top:.55rem;flex-shrink:0}
+.v-inds{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.3rem}
+.v-inds span{font-size:.72rem;font-weight:600;color:var(--ink-soft);padding:.4rem .9rem;border:1px solid var(--line);
+  border-radius:50px;background:#fff}
+.v-hl{display:flex;flex-direction:column;gap:.55rem;margin-bottom:1.8rem}
+.v-hl div{font-size:.85rem;color:var(--ink-soft);display:flex;gap:.6rem;align-items:flex-start;line-height:1.6}
+.v-hl div svg{flex-shrink:0;margin-top:.2rem}
+.v-cta{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+.v-cta .site{font-size:.78rem;color:var(--ink-faint);font-weight:600}
+
+/* ═══ ENGINEERING SOLUTIONS ════════════════ */
+#eng{position:relative;padding:7rem 1.75rem;background:var(--ink)}
+.eng-i{max-width:1080px;margin:0 auto;position:relative;z-index:2}
+#eng .sh .ey{color:#8fb0ff}
+#eng .sh h2{color:#fff}
+#eng .sh p{color:#a6adb9}
+.eng-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;margin-top:2.6rem}
+@media(min-width:640px){.eng-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:960px){.eng-grid{grid-template-columns:repeat(5,1fr)}}
+.eng-c{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;
+  padding:1.35rem .9rem;text-align:center;opacity:0;transform:translateY(14px);
+  transition:all .55s cubic-bezier(.16,1,.3,1)}
+.eng-c.v{opacity:1;transform:translateY(0)}
+.eng-c:hover{border-color:rgba(255,255,255,.32);background:rgba(255,255,255,.08);transform:translateY(-4px)!important}
+.eng-c span{font-size:.76rem;font-weight:600;color:#fff;letter-spacing:.005em;line-height:1.4}
+.eng-note{margin-top:2.6rem;text-align:center;font-size:.92rem;line-height:1.85;color:#a6adb9;
+  max-width:680px;margin-left:auto;margin-right:auto;opacity:0;transform:translateY(14px);transition:all .6s}
+.eng-note.v{opacity:1;transform:translateY(0)}
+
+/* ═══ TRUST SECTION ════════════════════════ */
+#trust{position:relative;padding:7rem 1.75rem;background:var(--bg)}
+.trust-i{max-width:1120px;margin:0 auto;position:relative;z-index:2}
+.tg{display:grid;grid-template-columns:1fr;gap:1.1rem;margin-top:2.8rem}
+@media(min-width:640px){.tg{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.tg{grid-template-columns:repeat(3,1fr)}}
+.tc{background:#fff;border:1px solid var(--line);border-radius:16px;padding:1.9rem 1.6rem;
+  opacity:0;transform:translateY(16px);transition:all .6s cubic-bezier(.16,1,.3,1)}
+.tc.v{opacity:1;transform:translateY(0)}
+.tc:hover{border-color:#c7d2f5;box-shadow:0 16px 40px rgba(13,17,23,.06);transform:translateY(-5px)!important}
+.tc-i{width:42px;height:42px;background:var(--accent-soft);border:1px solid #dbe3fb;border-radius:11px;
+  display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem}
+.tc h3{font-family:'Inter Tight',sans-serif;font-size:.94rem;font-weight:700;color:var(--ink);margin-bottom:.6rem}
+.tc p{font-size:.83rem;line-height:1.7;color:var(--ink-soft)}
+
+/* ═══ CONTACT ══════════════════════════════ */
+#con{position:relative;padding:7rem 1.75rem 5.5rem;background:var(--bg-alt)}
+.coni{max-width:1000px;margin:0 auto;position:relative;z-index:2}
+.con-grid{display:grid;grid-template-columns:1fr;gap:1.4rem;margin-top:2.8rem}
+@media(min-width:760px){.con-grid{grid-template-columns:1fr 1fr}}
+.pcard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:2.3rem 2rem;
+  opacity:0;transform:translateY(18px);transition:all .7s cubic-bezier(.16,1,.3,1)}
+.pcard.v{opacity:1;transform:translateY(0)}
+.pcard:nth-child(2){transition-delay:.1s}
+.pc-name{font-family:'Inter Tight',sans-serif;font-size:1.25rem;font-weight:800;color:var(--ink);margin-bottom:.35rem}
+.pc-role{font-size:.72rem;letter-spacing:.03em;font-weight:700;color:var(--accent);margin-bottom:1.4rem}
+.pc-resp{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.6rem}
+.pc-resp span{font-size:.68rem;font-weight:600;color:var(--ink-soft);padding:.35rem .8rem;
+  border:1px solid var(--line);border-radius:50px;background:var(--bg-alt)}
+.pc-phone{display:flex;align-items:center;gap:.8rem;padding-top:1.4rem;border-top:1px solid var(--line)}
+.pc-ic{width:40px;height:40px;min-width:40px;background:var(--accent-soft);border:1px solid #dbe3fb;
+  border-radius:11px;display:flex;align-items:center;justify-content:center}
+.pc-phone a{font-size:1.02rem;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:.01em}
+.pc-phone a:hover{color:var(--accent)}
+.pc-lbl{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.2rem}
+
+/* ═══ FOOTER ═══════════════════════════════ */
+footer{padding:2.4rem 1.75rem 3rem;border-top:1px solid var(--line);text-align:center;background:var(--bg)}
+.ft-name{font-size:.8rem;font-weight:700;color:var(--ink-soft);margin-bottom:.4rem}
+.ft{font-size:.68rem;color:var(--ink-faint)}
+
+/* ═══ KEYFRAMES ════════════════════════════ */
+@keyframes fsu{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+/* ═══ SCROLL PROGRESS ══════════════════════ */
+#spb{position:fixed;top:0;left:0;height:2px;width:0%;background:var(--accent);z-index:9996;pointer-events:none}
+</style>
+</head>
+<body>
+
+<div id="spb"></div>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="#hero" class="nn"><span class="mk">MS</span>Mahabhadra &amp; Mahayash Shah</a>
+  <ul class="nl">
+    <li><a href="#castings">Castings</a></li>
+    <li><a href="#fabrication">Fabrication</a></li>
+    <li><a href="#piping">Piping</a></li>
+    <li><a href="#containers">Containers</a></li>
+    <li><a href="#eng">Engineering</a></li>
+    <li><a href="#trust">Why Us</a></li>
+    <li><a href="#con">Contact</a></li>
+  </ul>
+  <a href="#con" class="nc">Get In Touch</a>
+  <button class="hm" id="hm"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mm" id="mm">
+  <button class="mx" id="mx">✕</button>
+  <a href="#castings" onclick="cmm()">Castings</a>
+  <a href="#fabrication" onclick="cmm()">Fabrication</a>
+  <a href="#piping" onclick="cmm()">Piping</a>
+  <a href="#containers" onclick="cmm()">Containers</a>
+  <a href="#eng" onclick="cmm()">Engineering</a>
+  <a href="#trust" onclick="cmm()">Why Us</a>
+  <a href="#con" onclick="cmm()">Contact</a>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hi">
+    <span class="h-ey">A Diversified Manufacturing &amp; Engineering Group</span>
+    <h1 class="h-name">Mahabhadra Shah <span class="h-amp">&amp;</span> Mahayash Shah</h1>
+    <p class="h-mk">Manufacturers of</p>
+    <div class="h-verts">
+      <span>Lost Foam Castings</span>
+      <span>Shipping Containers</span>
+      <span>Industrial Fabrication</span>
+      <span>Industrial Piping</span>
+      <span>Engineering Solutions</span>
+    </div>
+    <p class="h-headline">Delivering precision manufacturing, engineered solutions, and industrial excellence across multiple sectors.</p>
+    <div class="h-cta-row">
+      <a href="#trust" class="bg">Explore Our Capabilities</a>
+      <a href="#con" class="bo">Contact Us</a>
+    </div>
+
+    <div class="h-strip">
+      <div class="h-strip-lbl">From Our Manufacturing Facilities in Gujarat</div>
+      <div class="h-strip-row">
+        <div><img src="assets/castings/factory-facility.jpg" alt="Castora Foam Tech manufacturing facility" loading="lazy"></div>
+        <div><img src="assets/fabrication/slider-1.jpg" alt="Param Engineers fabrication facility" loading="lazy"></div>
+        <div><img src="assets/piping/ducting.jpg" alt="Param Engineers piping and ducting work" loading="lazy"></div>
+        <div><img src="assets/containers/about-us.webp" alt="APPL Containers manufacturing facility" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PERSONAL PORTFOLIO REDIRECT ═══ -->
+<div id="pport">
+  <div class="pp-i">
+    <p class="pp-t"><strong>Mahabhadra Shah</strong> also maintains an individual portfolio covering his personal profile, roles, and community initiatives.</p>
+    <a href="https://tinyurl.com/Mahabhadra" target="_blank" rel="noopener noreferrer" class="bs">View Personal Portfolio ↗</a>
+  </div>
+</div>
+
+<!-- ═══ CASTINGS ═══ -->
+<section class="vert" id="castings">
+  <div class="v-wrap">
+    <div class="v-grid">
+      <div class="v-media" id="cm1">
+        <div class="v-frame">
+          <img src="assets/castings/factory-facility.jpg" alt="Castora Foam Tech Lost Foam Casting facility" loading="lazy">
+        </div>
+        <div class="v-tag">Castora Foam Tech · Bhavnagar, Gujarat</div>
+        <div class="v-sub-img"><img src="assets/castings/product-corner.jpg" alt="Castora Foam Tech ISO container corner casting" loading="lazy"></div>
+      </div>
+      <div class="v-body" id="cb1">
+        <span class="v-num">01 · Castings</span>
+        <h3 class="v-h">Lost Foam Casting, Engineered for Scale</h3>
+        <p class="v-intro">Castora Foam Tech is a precision Lost Foam Casting (LFC) manufacturer built to reduce India's reliance on imported container components. A 40,000 sq ft facility in Bhavnagar produces near-net-shape steel castings with full batch traceability — from EPS pattern moulding through induction melting to inspection and dispatch.</p>
+
+        <span class="v-sub">Core Capabilities</span>
+        <ul class="v-caps">
+          <li>Seven-stage Lost Foam Casting process line</li>
+          <li>500–550 kW induction melting, 1,500°C+</li>
+          <li>In-house spectro, hardness &amp; NDT testing lab</li>
+          <li>98% sand reclamation efficiency</li>
+          <li>Near-net-shape, complex geometry castings</li>
+          <li>ISO 1161:2016-compliant container fittings</li>
+        </ul>
+
+        <span class="v-sub">Industries Served</span>
+        <div class="v-inds">
+          <span>Container Manufacturing</span>
+          <span>Shipping &amp; Port Operations</span>
+          <span>Automotive &amp; Tractor</span>
+          <span>Pump &amp; Valve Manufacturing</span>
+          <span>Railway</span>
+        </div>
+
+        <div class="v-hl">
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>300 MT monthly casting capacity across a fully equipped production line</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Full batch traceability with in-house metallurgical testing</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Strategic Bhavnagar location for fast dispatch to Indian ports</div>
+        </div>
+
+        <div class="v-cta">
+          <a href="https://www.castorafoamtech.com" target="_blank" rel="noopener noreferrer" class="bo">For more information, visit Castora Foam Tech ↗</a>
+          <span class="site">castorafoamtech.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ INDUSTRIAL FABRICATION ═══ -->
+<section class="vert" id="fabrication">
+  <div class="v-wrap">
+    <div class="v-grid alt">
+      <div class="v-media" id="fm1">
+        <div class="v-frame">
+          <img src="assets/fabrication/slider-1.jpg" alt="Param Engineers industrial structural fabrication" loading="lazy">
+        </div>
+        <div class="v-tag">Param Engineers · Vadodara, Gujarat</div>
+        <div class="v-sub-img"><img src="assets/fabrication/structure.jpg" alt="Param Engineers industrial structure fabrication" loading="lazy"></div>
+      </div>
+      <div class="v-body" id="fb1">
+        <span class="v-num">02 · Industrial Fabrication</span>
+        <h3 class="v-h">Heavy Engineering &amp; Structural Fabrication</h3>
+        <p class="v-intro">Param Engineers is a heavy engineering fabricator near Vadodara, building industrial structures, storage tanks, silos, furnaces, and plant equipment across MS, SS and specialised alloys — with fabrication, machining, testing and finishing carried out under one roof.</p>
+
+        <span class="v-sub">Core Capabilities</span>
+        <ul class="v-caps">
+          <li>Structural steel &amp; industrial plant fabrication</li>
+          <li>Storage silos, vessels, tanks &amp; hoppers</li>
+          <li>Industrial furnaces, chimneys &amp; transformer tanks</li>
+          <li>CNC plasma cutting (up to 14,000×3,200mm) &amp; plate rolling</li>
+          <li>Fabrication across MS, SS, brass, copper, bronze &amp; alloys</li>
+          <li>Hydraulic &amp; pneumatic pressure testing in-house</li>
+        </ul>
+
+        <span class="v-sub">Industries Served</span>
+        <div class="v-inds">
+          <span>Thermal &amp; Power</span>
+          <span>Petroleum &amp; Chemical</span>
+          <span>Process Industries</span>
+        </div>
+
+        <div class="v-hl">
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Fabrication, machining, testing and finishing under one roof</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>ISO 9001:2008 certified quality management system</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Custom production from drawings, of any scale</div>
+        </div>
+
+        <div class="v-cta">
+          <a href="https://www.paramengineers.in" target="_blank" rel="noopener noreferrer" class="bo">For more information, visit Param Engineers ↗</a>
+          <span class="site">paramengineers.in</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ INDUSTRIAL PIPING ═══ -->
+<section class="vert" id="piping">
+  <div class="v-wrap">
+    <div class="v-grid">
+      <div class="v-media" id="pm1">
+        <div class="v-frame">
+          <img src="assets/fabrication/slider-3.jpg" alt="Param Engineers industrial process piping" loading="lazy">
+        </div>
+        <div class="v-tag">Param Engineers · Vadodara, Gujarat</div>
+        <div class="v-sub-img"><img src="assets/piping/ducting.jpg" alt="Param Engineers ducting and piping work" loading="lazy"></div>
+      </div>
+      <div class="v-body" id="pb1">
+        <span class="v-num">03 · Industrial Piping</span>
+        <h3 class="v-h">Process &amp; Utility Piping Fabrication</h3>
+        <p class="v-intro">Alongside structural fabrication, Param Engineers manufactures process and utility piping, ducting and cones at its Vadodara facility — engineered to precise dimensions and executed on the same certified fabrication and testing base that underpins its heavy engineering work.</p>
+
+        <span class="v-sub">Core Capabilities</span>
+        <ul class="v-caps">
+          <li>Process &amp; utility piping fabrication</li>
+          <li>Ducting &amp; cone fabrication to specification</li>
+          <li>Piping in a full range of sizes, dimensions &amp; lengths</li>
+          <li>Precision CNC cutting, rolling &amp; pressure testing</li>
+        </ul>
+
+        <span class="v-sub">Industries Served</span>
+        <div class="v-inds">
+          <span>Process Industries</span>
+          <span>Power &amp; Utilities</span>
+          <span>Plant &amp; Facility Engineering</span>
+        </div>
+
+        <div class="v-hl">
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Piping engineered at the same hi-tech manufacturing unit as our structural work</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Shared ISO 9001:2008 certified quality system</div>
+        </div>
+
+        <div class="v-cta">
+          <a href="https://www.paramengineers.in" target="_blank" rel="noopener noreferrer" class="bo">For more information, visit Param Engineers ↗</a>
+          <span class="site">paramengineers.in</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SHIPPING CONTAINERS ═══ -->
+<section class="vert" id="containers">
+  <div class="v-wrap">
+    <div class="v-grid alt">
+      <div class="v-media" id="sm1">
+        <div class="v-frame">
+          <img src="assets/containers/about-us.webp" alt="APPL Containers manufacturing facility" loading="lazy">
+        </div>
+        <div class="v-tag">APPL Containers · Bhavnagar, Gujarat</div>
+        <div class="v-sub-img"><img src="assets/containers/slm-robot-welding.webp" alt="APPL Containers robotic welding" loading="lazy"></div>
+      </div>
+      <div class="v-body" id="sb1">
+        <span class="v-num">04 · Shipping Containers</span>
+        <h3 class="v-h">ISO Shipping Container Manufacturing</h3>
+        <p class="v-intro">APPL Containers is among India's first ISO shipping container manufacturers, producing over 15,000 containers annually from a modern facility in Bhavnagar — inaugurated in 2022 in support of the "Make in India" initiative.</p>
+
+        <span class="v-sub">Core Capabilities</span>
+        <ul class="v-caps">
+          <li>Robotic (SLM) welding &amp; laser cutting</li>
+          <li>Standard, High Cube &amp; Open Top containers</li>
+          <li>Specialised BESS, cement-tank &amp; coil containers</li>
+          <li>In-house testing rig &amp; dedicated R&amp;D department</li>
+          <li>ISO 1496-compliant, TUV NORD verified</li>
+          <li>Custom sizing, coatings &amp; door configurations</li>
+        </ul>
+
+        <span class="v-sub">Applications</span>
+        <div class="v-inds">
+          <span>General Cargo &amp; Freight</span>
+          <span>Battery Energy Storage</span>
+          <span>Bulk &amp; Liquid Transport</span>
+          <span>Steel &amp; Coil Logistics</span>
+          <span>Export via Major Ports</span>
+        </div>
+
+        <div class="v-hl">
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>15,000+ containers manufactured annually</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Facility established as part of India's "Make in India" push</div>
+          <div><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Full customisation for specialised industrial use cases</div>
+        </div>
+
+        <div class="v-cta">
+          <a href="https://www.applcontainers.com" target="_blank" rel="noopener noreferrer" class="bo">For more information, visit APPL Containers ↗</a>
+          <span class="site">applcontainers.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ENGINEERING SOLUTIONS ═══ -->
+<section id="eng">
+  <div class="eng-i">
+    <div class="sh">
+      <span class="ey" id="ey1">End-to-End Capability</span>
+      <h2 id="eh1">Engineering Solutions</h2>
+      <p id="ep1">Beyond individual product lines, we operate as a dependable manufacturing and engineering partner — capable of handling diverse industrial requirements from concept through commissioning.</p>
+    </div>
+    <div class="eng-grid">
+      <div class="eng-c" id="ec1"><span>Manufacturing</span></div>
+      <div class="eng-c" id="ec2"><span>Industrial Engineering</span></div>
+      <div class="eng-c" id="ec3"><span>Fabrication</span></div>
+      <div class="eng-c" id="ec4"><span>Casting</span></div>
+      <div class="eng-c" id="ec5"><span>Containers</span></div>
+      <div class="eng-c" id="ec6"><span>Piping</span></div>
+      <div class="eng-c" id="ec7"><span>Custom Engineering</span></div>
+      <div class="eng-c" id="ec8"><span>Project Execution</span></div>
+      <div class="eng-c" id="ec9"><span>Industrial Components</span></div>
+      <div class="eng-c" id="ec10"><span>Engineering Consultation</span></div>
+      <div class="eng-c" id="ec11"><span>Industrial Development</span></div>
+    </div>
+    <p class="eng-note" id="en1">Whether the requirement is a single precision component or a complete industrial project, our combined manufacturing and engineering capabilities allow us to respond with the right expertise, capacity, and execution discipline.</p>
+  </div>
+</section>
+
+<!-- ═══ TRUST / WHY CHOOSE US ═══ -->
+<section id="trust">
+  <div class="trust-i">
+    <div class="sh">
+      <span class="ey" id="ey2">Why Choose Us</span>
+      <h2 id="eh2">Built on Trust &amp; Precision</h2>
+      <p id="ep2">Across every business we operate, the same principles hold — reliable execution, engineering discipline, and a genuine focus on the outcomes our clients need.</p>
+    </div>
+    <div class="tg">
+      <div class="tc" id="tc1">
+        <div class="tc-i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <h3>Manufacturers, Not Middlemen</h3>
+        <p>Every business in this group owns its manufacturing — we control quality, capacity, and delivery from the ground up.</p>
+      </div>
+      <div class="tc" id="tc2">
+        <div class="tc-i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>Timely, Reliable Execution</h3>
+        <p>Industrial buyers and EPC partners plan around dates. We build our processes to meet them, consistently.</p>
+      </div>
+      <div class="tc" id="tc3">
+        <div class="tc-i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <h3>Quality-Driven Manufacturing</h3>
+        <p>In-house testing, engineering review, and process discipline are built into how we work, not added on afterward.</p>
+      </div>
+      <div class="tc" id="tc4">
+        <div class="tc-i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Long-Term Relationships</h3>
+        <p>We work to become a dependable partner across projects, not a one-time vendor.</p>
+      </div>
+      <div class="tc" id="tc5">
+        <div class="tc-i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <h3>Engineering Expertise</h3>
+        <p>Leadership and teams with hands-on technical depth across metallurgy, fabrication, and process engineering.</p>
+      </div>
+      <div class="tc" id="tc6">
+        <div class="tc-i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+        <h3>Customer-Centric Solutions</h3>
+        <p>Every engagement starts with understanding the client's actual requirement, not fitting them into a standard catalogue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="con">
+  <div class="coni">
+    <div class="sh">
+      <span class="ey" id="ey3">Get In Touch</span>
+      <h2 id="eh3">Speak With The Right Person</h2>
+      <p id="ep3">Reach out directly to the leader responsible for the business area you're inquiring about.</p>
+    </div>
+    <div class="con-grid">
+      <div class="pcard" id="pc1">
+        <div class="pc-name">Mahabhadra Shah</div>
+        <div class="pc-role">CASTINGS &amp; SHIPPING CONTAINERS</div>
+        <div class="pc-resp">
+          <span>Castora Foam Tech</span>
+          <span>APPL Containers</span>
+        </div>
+        <div class="pc-phone">
+          <div class="pc-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12 19.79 19.79 0 0 1 1.17 3.4 2 2 0 0 1 3.14 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg></div>
+          <div>
+            <div class="pc-lbl">Phone</div>
+            <a href="tel:+919081919100">+91 90819 19100</a>
+          </div>
+        </div>
+      </div>
+      <div class="pcard" id="pc2">
+        <div class="pc-name">Mahayash Shah</div>
+        <div class="pc-role">FABRICATION, PIPING &amp; ENGINEERING SOLUTIONS</div>
+        <div class="pc-resp">
+          <span>Industrial Fabrication</span>
+          <span>Industrial Piping</span>
+          <span>Engineering Solutions</span>
+        </div>
+        <div class="pc-phone">
+          <div class="pc-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12 19.79 19.79 0 0 1 1.17 3.4 2 2 0 0 1 3.14 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg></div>
+          <div>
+            <div class="pc-lbl">Phone</div>
+            <a href="tel:+917600991077">+91 76009 91077</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="ft-name">Mahabhadra Shah &amp; Mahayash Shah</p>
+  <p class="ft">© 2026 · Manufacturing &amp; Engineering Group · India</p>
+</footer>
+
+<script>
+/* NAV */
+addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('s',scrollY>60));
+document.getElementById('hm').addEventListener('click',()=>{document.getElementById('mm').classList.add('o');document.body.style.overflow='hidden'});
+document.getElementById('mx').addEventListener('click',cmm);
+function cmm(){document.getElementById('mm').classList.remove('o');document.body.style.overflow=''}
+
+/* SCROLL PROGRESS */
+const spb=document.getElementById('spb');
+function updPB(){const max=document.documentElement.scrollHeight-innerHeight;if(max<=0)return;spb.style.width=(scrollY/max*100).toFixed(2)+'%';}
+addEventListener('scroll',updPB,{passive:true});updPB();
+
+/* SCROLL REVEAL */
+const ro=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    e.target.classList.add('v');
+    ro.unobserve(e.target);
+  });
+},{threshold:.12,rootMargin:'0px 0px -36px 0px'});
+document.querySelectorAll('.sh .ey,.sh h2,.sh p,.v-media,.v-body,.eng-c,.eng-note,.tc,.pcard').forEach(el=>ro.observe(el));
+</script>
+</body>
+</html>
