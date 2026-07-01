@@ -125,13 +125,6 @@ a{color:inherit}
   color:var(--accent-deep);text-decoration:none;transition:all .25s}
 .bs:hover{background:#dfe6fd;transform:translateY(-2px)}
 
-/* ═══ PERSONAL PORTFOLIO STRIP ════════════ */
-#pport{position:relative;padding:2rem 1.75rem;background:var(--bg-alt);border-top:1px solid var(--line);
-  border-bottom:1px solid var(--line);text-align:center}
-.pp-i{max-width:640px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:.85rem}
-.pp-t{font-size:.85rem;line-height:1.7;color:var(--ink-soft)}
-.pp-t strong{color:var(--ink)}
-
 /* ═══ VERTICAL SECTIONS ═══════════════════ */
 .vert{position:relative;padding:7rem 1.75rem;background:var(--bg)}
 .vert:nth-of-type(even){background:var(--bg-alt)}
@@ -147,9 +140,9 @@ a{color:inherit}
 .v-frame{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
   box-shadow:0 20px 46px rgba(13,17,23,.07)}
 .v-frame img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-.v-tag{position:absolute;bottom:1rem;left:1rem;right:1rem;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);
-  border:1px solid var(--line);border-radius:11px;padding:.65rem .95rem;font-size:.68rem;font-weight:700;
-  color:var(--ink);z-index:2}
+.v-tag{position:absolute;top:1rem;left:1rem;right:auto;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);
+  border:1px solid var(--line);border-radius:9px;padding:.55rem .85rem;font-size:.66rem;font-weight:700;
+  color:var(--ink);z-index:4;white-space:nowrap}
 .v-sub-img{position:absolute;width:36%;bottom:-1.3rem;right:-1.3rem;border-radius:13px;overflow:hidden;
   border:4px solid #fff;box-shadow:0 16px 36px rgba(13,17,23,.14);z-index:3}
 .v-grid.alt .v-sub-img{right:auto;left:-1.3rem}
@@ -223,6 +216,9 @@ a{color:inherit}
 .pcard.v{opacity:1;transform:translateY(0)}
 .pcard:nth-child(2){transition-delay:.1s}
 .pc-name{font-family:'Inter Tight',sans-serif;font-size:1.25rem;font-weight:800;color:var(--ink);margin-bottom:.35rem}
+.pc-portfolio{display:inline-flex;align-items:center;gap:.3rem;font-size:.68rem;font-weight:700;color:var(--accent);
+  text-decoration:none;margin-bottom:.9rem;transition:color .2s}
+.pc-portfolio:hover{color:var(--accent-deep)}
 .pc-role{font-size:.72rem;letter-spacing:.03em;font-weight:700;color:var(--accent);margin-bottom:1.4rem}
 .pc-resp{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.6rem}
 .pc-resp span{font-size:.68rem;font-weight:600;color:var(--ink-soft);padding:.35rem .8rem;
@@ -299,7 +295,7 @@ footer{padding:2.4rem 1.75rem 3rem;border-top:1px solid var(--line);text-align:c
     <div class="h-strip">
       <div class="h-strip-lbl">From Our Manufacturing Facilities in Gujarat</div>
       <div class="h-strip-row">
-        <div><img src="assets/castings/factory-facility.jpg" alt="Castora Foam Tech manufacturing facility" loading="lazy"></div>
+        <div><img src="assets/castings/product-door.jpg" alt="Castora Foam Tech precision casting" loading="lazy"></div>
         <div><img src="assets/fabrication/slider-1.jpg" alt="Param Engineers fabrication facility" loading="lazy"></div>
         <div><img src="assets/piping/ducting.jpg" alt="Param Engineers piping and ducting work" loading="lazy"></div>
         <div><img src="assets/containers/about-us.webp" alt="APPL Containers manufacturing facility" loading="lazy"></div>
@@ -308,29 +304,21 @@ footer{padding:2.4rem 1.75rem 3rem;border-top:1px solid var(--line);text-align:c
   </div>
 </section>
 
-<!-- ═══ PERSONAL PORTFOLIO REDIRECT ═══ -->
-<div id="pport">
-  <div class="pp-i">
-    <p class="pp-t"><strong>Mahabhadra Shah</strong> also maintains an individual portfolio covering his personal profile, roles, and community initiatives.</p>
-    <a href="https://tinyurl.com/Mahabhadra" target="_blank" rel="noopener noreferrer" class="bs">View Personal Portfolio ↗</a>
-  </div>
-</div>
-
 <!-- ═══ CASTINGS ═══ -->
 <section class="vert" id="castings">
   <div class="v-wrap">
     <div class="v-grid">
       <div class="v-media" id="cm1">
         <div class="v-frame">
-          <img src="assets/castings/factory-facility.jpg" alt="Castora Foam Tech Lost Foam Casting facility" loading="lazy">
+          <img src="assets/castings/product-panels.jpg" alt="Castora Foam Tech precision steel castings" loading="lazy">
         </div>
         <div class="v-tag">Castora Foam Tech · Bhavnagar, Gujarat</div>
-        <div class="v-sub-img"><img src="assets/castings/product-corner.jpg" alt="Castora Foam Tech ISO container corner casting" loading="lazy"></div>
+        <div class="v-sub-img"><img src="assets/castings/product-door.jpg" alt="Castora Foam Tech engineered casting component" loading="lazy"></div>
       </div>
       <div class="v-body" id="cb1">
         <span class="v-num">01 · Castings</span>
         <h3 class="v-h">Lost Foam Casting, Engineered for Scale</h3>
-        <p class="v-intro">Castora Foam Tech is a precision Lost Foam Casting (LFC) manufacturer built to reduce India's reliance on imported container components. A 40,000 sq ft facility in Bhavnagar produces near-net-shape steel castings with full batch traceability — from EPS pattern moulding through induction melting to inspection and dispatch.</p>
+        <p class="v-intro">Castora Foam Tech is a precision Lost Foam Casting (LFC) manufacturer producing near-net-shape steel castings for container, automotive, railway, and industrial applications. A 40,000 sq ft facility in Bhavnagar runs the full process in-house — from EPS pattern moulding through induction melting to inspection and dispatch — with full batch traceability throughout.</p>
 
         <span class="v-sub">Core Capabilities</span>
         <ul class="v-caps">
@@ -339,7 +327,7 @@ footer{padding:2.4rem 1.75rem 3rem;border-top:1px solid var(--line);text-align:c
           <li>In-house spectro, hardness &amp; NDT testing lab</li>
           <li>98% sand reclamation efficiency</li>
           <li>Near-net-shape, complex geometry castings</li>
-          <li>ISO 1161:2016-compliant container fittings</li>
+          <li>ISO-compliant castings across multiple product lines</li>
         </ul>
 
         <span class="v-sub">Industries Served</span>
@@ -588,10 +576,12 @@ footer{padding:2.4rem 1.75rem 3rem;border-top:1px solid var(--line);text-align:c
     <div class="con-grid">
       <div class="pcard" id="pc1">
         <div class="pc-name">Mahabhadra Shah</div>
-        <div class="pc-role">CASTINGS &amp; SHIPPING CONTAINERS</div>
+        <a href="https://tinyurl.com/Mahabhadra" target="_blank" rel="noopener noreferrer" class="pc-portfolio">View Personal Portfolio ↗</a>
+        <div class="pc-role">CASTINGS, SHIPPING CONTAINERS &amp; ENGINEERING SOLUTIONS</div>
         <div class="pc-resp">
           <span>Castora Foam Tech</span>
           <span>APPL Containers</span>
+          <span>Engineering Solutions</span>
         </div>
         <div class="pc-phone">
           <div class="pc-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1f4ed8" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12 19.79 19.79 0 0 1 1.17 3.4 2 2 0 0 1 3.14 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg></div>
